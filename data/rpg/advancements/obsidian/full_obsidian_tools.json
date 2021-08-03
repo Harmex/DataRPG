@@ -1,0 +1,89 @@
+{
+  "parent": "rpg:obsidian/obsidian_tools",
+  "display": {
+    "icon": {
+      "item": "minecraft:fishing_rod",
+      "nbt": "{CustomModelData:1001}"
+    },
+    "title": "The full set of tools",
+    "description": "The power is in your hand",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obsidian_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_pickaxe",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_axe",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_shovel",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_hoe",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obsidian_sword"
+    ],
+    [
+      "obsidian_pickaxe"
+    ],
+    [
+      "obsidian_axe"
+    ],
+    [
+      "obsidian_shovel"
+    ],
+    [
+      "obsidian_hoe"
+    ]
+  ]
+}

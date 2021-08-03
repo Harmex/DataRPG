@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "rpg:benches/crafting_station"
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpg:craft/benches/crafting_station/craft"
+    }
+  }

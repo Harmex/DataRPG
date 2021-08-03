@@ -1,0 +1,145 @@
+{
+  "parent": "rpg:obsidian/full_obsidian_set",
+  "display": {
+    "icon": {
+      "item": "minecraft:end_crystal",
+      "nbt": "{Damage:0}"
+    },
+    "title": "TODO",
+    "description": "TODO",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "crying_obsidian_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_helmet",
+            "nbt": "{CustomModelData:2}"
+          }
+        ]
+      }
+    },
+    "crying_obsidian_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_chestplate",
+            "nbt": "{CustomModelData:2}"
+          }
+        ]
+      }
+    },
+    "crying_obsidian_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_leggings",
+            "nbt": "{CustomModelData:2}"
+          }
+        ]
+      }
+    },
+    "crying_obsidian_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_boots",
+            "nbt": "{CustomModelData:2}"
+          }
+        ]
+      }
+    },
+    "crying_obsidian_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{CustomModelData:2}"
+          }
+        ]
+      }
+    },
+    "crying_obsidian_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_pickaxe",
+            "nbt": "{CustomModelData:2}"
+          }
+        ]
+      }
+    },
+    "crying_obsidian_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_axe",
+            "nbt": "{CustomModelData:2}"
+          }
+        ]
+      }
+    },
+    "crying_obsidian_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_shovel",
+            "nbt": "{CustomModelData:2}"
+          }
+        ]
+      }
+    },
+    "crying_obsidian_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_hoe",
+            "nbt": "{CustomModelData:2}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crying_obsidian_helmet"
+    ],
+    [
+      "crying_obsidian_chestplate"
+    ],
+    [
+      "crying_obsidian_leggings"
+    ],
+    [
+      "crying_obsidian_boots"
+    ],
+    [
+      "crying_obsidian_sword"
+    ],
+    [
+      "crying_obsidian_pickaxe"
+    ],
+    [
+      "crying_obsidian_axe"
+    ],
+    [
+      "crying_obsidian_shovel"
+    ],
+    [
+      "crying_obsidian_hoe"
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "rpg:benches/upgrade_station"
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpg:craft/benches/upgrade_station/craft"
+    }
+  }

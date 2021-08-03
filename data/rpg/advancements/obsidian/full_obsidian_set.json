@@ -1,0 +1,145 @@
+{
+  "parent": "rpg:obsidian/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:end_crystal",
+      "nbt": "{Damage:0}"
+    },
+    "title": "The full set made of obsidian",
+    "description": "GG ! You made it ! Now you can upgrade it in the upgrade station with crying obsidian",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "obsidian_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_helmet",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_chestplate",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_leggings",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_boots",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_pickaxe",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_axe",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_shovel",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_hoe",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obsidian_helmet"
+    ],
+    [
+      "obsidian_chestplate"
+    ],
+    [
+      "obsidian_leggings"
+    ],
+    [
+      "obsidian_boots"
+    ],
+    [
+      "obsidian_sword"
+    ],
+    [
+      "obsidian_pickaxe"
+    ],
+    [
+      "obsidian_axe"
+    ],
+    [
+      "obsidian_shovel"
+    ],
+    [
+      "obsidian_hoe"
+    ]
+  ]
+}

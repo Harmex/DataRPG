@@ -1,0 +1,69 @@
+{
+  "parent": "rpg:obsidian/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_chestplate",
+      "nbt": "{CustomModelData:1}"
+    },
+    "title": "Why is it better than netherite ?",
+    "description": "Obsidian armor makes you invincible !",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obsidian_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_helmet",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_chestplate",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_leggings",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "obsidian_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_boots",
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obsidian_helmet",
+      "obsidian_chestplate",
+      "obsidian_leggings",
+      "obsidian_boots"
+    ]
+  ]
+}

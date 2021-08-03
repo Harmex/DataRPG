@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpg:obsidian_armor/obsidian_chestplate"
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpg:craft/obsidian_armor/obsidian_chestplate"
+  }
+}

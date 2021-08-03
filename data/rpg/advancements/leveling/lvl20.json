@@ -1,0 +1,41 @@
+{
+  "parent": "rpg:leveling/lvl15",
+  "display": {
+    "icon": {
+      "item": "minecraft:experience_bottle",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+        "translate": "advancements.leveling.lvl20.title"
+    },
+    "description": {
+        "translate": "advancements.leveling.lvl20.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lvl20": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "player": {
+            "level": {
+              "min": 20
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+      "function": "rpg:rewards/lvl20"
+  },
+  "requirements": [
+    [
+      "lvl20"
+    ]
+  ]
+}

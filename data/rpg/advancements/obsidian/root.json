@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:obsidian",
+        "nbt": "{Damage:0}"
+      },
+      "title": "The Adventure Begin",
+      "description": "You can make tools and armor with obsidian (the rod is made of diamonds)",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+    },
+    "criteria": {
+      "obsidian_helmet": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:obsidian"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "obsidian_helmet"
+      ]
+    ]
+  }
