@@ -1,0 +1,2 @@
+execute if entity @e[type=armor_stand,tag=upgrade_station,tag=placed] run function rpg:craft/benches/upgrade_station/crafts/crying_obsidian/all
+execute if entity @e[type=armor_stand,tag=crafting_station,tag=placed] run function rpg:craft/benches/crafting_station/crafts/all

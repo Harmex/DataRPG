@@ -1,0 +1,3 @@
+replaceitem block ~ ~ ~ container.12 air
+replaceitem block ~ ~ ~ container.14 air
+replaceitem block ~ ~ ~ container.16 netherite_pickaxe{display: {Name: '{"text":"Crying Obsidian Pickaxe","color":"#8308E4","italic":false}'}, CustomModelData: 2, AttributeModifiers: [{AttributeName: "generic.attack_speed", Name: "generic.attack_speed", Amount: 1.2d, Operation: 0, UUID: [I; 25, 25, 25, 25], Slot: "mainhand"}, {AttributeName: "generic.attack_damage", Name: "generic.attack_damage", Amount: 8, Operation: 0, UUID: [I; 26, 26, 26, 26], Slot: "mainhand"}]}

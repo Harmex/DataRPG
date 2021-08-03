@@ -1,0 +1,1 @@
+execute as @s at @s run summon zombie ~ ~ ~ {DeathLootTable: "rpg:zombiecommon", ArmorDropChances: [0f, 0f, 0f, 0f], HandDropChances:[0.0f, 0.0f]}

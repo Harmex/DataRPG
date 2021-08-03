@@ -1,0 +1,3 @@
+replaceitem block ~ ~ ~ container.12 air
+replaceitem block ~ ~ ~ container.14 air
+replaceitem block ~ ~ ~ container.16 netherite_leggings{display: {Name: '{"text":"Crying Obsidian Leggings","color":"#8308E4","italic":false}'}, CustomModelData: 2, AttributeModifiers: [{AttributeName: "generic.armor", Name: "generic.armor", Amount: 4, Operation: 0, UUID: [I; 42, 42, 42, 42], Slot: "legs"}, {AttributeName: "generic.armor_toughness", Name: "generic.armor_toughness", Amount: 4, Operation: 0, UUID: [I; 43, 43, 43, 43], Slot: "legs"}, {AttributeName: "generic.knockback_resistance", Name: "generic.knockback_resistance", Amount: 0.15d, Operation: 0, UUID: [I; 44, 44, 44, 44], Slot: "legs"}]}

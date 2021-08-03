@@ -1,0 +1,1 @@
+execute as @a[sort=random] run title @s actionbar [{"translate":"display.playerlvl"},{"score":{"name":"@s","objective":"level"},"bold":true,"color":"dark_green"}]

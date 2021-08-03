@@ -1,0 +1,3 @@
+replaceitem block ~ ~ ~ container.12 air
+replaceitem block ~ ~ ~ container.14 air
+replaceitem block ~ ~ ~ container.16 netherite_axe{display: {Name: '{"text":"Crying Obsidian Axe","color":"#8308E4","italic":false}'}, CustomModelData: 2, AttributeModifiers: [{AttributeName: "generic.attack_speed", Name: "generic.attack_speed", Amount: 1, Operation: 0, UUID: [I; 27, 27, 27, 27], Slot: "mainhand"}, {AttributeName: "generic.attack_damage", Name: "generic.attack_damage", Amount: 12, Operation: 0, UUID: [I; 28, 28, 28, 28], Slot: "mainhand"}]}

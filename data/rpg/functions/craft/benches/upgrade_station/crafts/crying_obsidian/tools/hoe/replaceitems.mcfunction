@@ -1,0 +1,3 @@
+replaceitem block ~ ~ ~ container.12 air
+replaceitem block ~ ~ ~ container.14 air
+replaceitem block ~ ~ ~ container.16 netherite_hoe{display: {Name: '{"text":"Crying Obsidian Hoe","color":"#8308E4","italic":false}'}, CustomModelData: 2, AttributeModifiers: [{AttributeName: "generic.attack_speed", Name: "generic.attack_speed", Amount: 4.5d, Operation: 0, UUID: [I; 31, 31, 31, 31], Slot: "mainhand"}, {AttributeName: "generic.attack_damage", Name: "generic.attack_damage", Amount: 1.5d, Operation: 0, UUID: [I; 32, 32, 32, 32], Slot: "mainhand"}]}

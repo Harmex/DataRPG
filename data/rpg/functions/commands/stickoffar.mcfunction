@@ -1,0 +1,1 @@
+give @s stick{Enchantments:[{id:"knockback",lvl:100}]}

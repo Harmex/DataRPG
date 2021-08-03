@@ -1,0 +1,1 @@
+scoreboard players remove @e[scores={portal_timer=1..}] portal_timer 1

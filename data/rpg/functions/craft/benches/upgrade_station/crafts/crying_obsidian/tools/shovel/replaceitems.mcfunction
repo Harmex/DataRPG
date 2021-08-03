@@ -1,0 +1,3 @@
+replaceitem block ~ ~ ~ container.12 air
+replaceitem block ~ ~ ~ container.14 air
+replaceitem block ~ ~ ~ container.16 netherite_shovel{display: {Name: '{"text":"Crying Obsidian Shovel","color":"#8308E4","italic":false}'}, CustomModelData: 2, AttributeModifiers: [{AttributeName: "generic.attack_speed", Name: "generic.attack_speed", Amount: 1, Operation: 0, UUID: [I; 29, 29, 29, 29], Slot: "mainhand"}, {AttributeName: "generic.attack_damage", Name: "generic.attack_damage", Amount: 7.5d, Operation: 0, UUID: [I; 30, 30, 30, 30], Slot: "mainhand"}]}

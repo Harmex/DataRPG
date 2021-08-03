@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=crafting_station,tag=placed] at @s if data block ~ ~ ~ {Items: []} unless data block ~ ~ ~ {Items: [{Slot: 16b}]} run function rpg:craft/benches/crafting_station/crafts/upgradeable/tools/pickaxe/replaceitems

@@ -1,0 +1,1 @@
+function rpg:portals/all
