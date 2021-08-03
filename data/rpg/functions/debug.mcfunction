@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {CustomName: '{"selector": "@s"}', CustomNameVisible:1b}
