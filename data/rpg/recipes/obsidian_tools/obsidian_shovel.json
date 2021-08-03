@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    " X ",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "obsidian"
+    },
+    "X": {
+      "item": "diamond"
+    }
+  },
+  "result": {
+    "item": "knowledge_book",
+    "count": 1
+  }
+}

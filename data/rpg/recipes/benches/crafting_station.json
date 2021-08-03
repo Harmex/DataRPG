@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "FFF",
+        "D#D",
+        "###"
+    ],
+    "key": {
+        "F": {
+            "item": "iron_ingot"
+        },
+        "#": {
+            "item": "cobblestone"
+        },
+        "D": {
+            "item": "diamond"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

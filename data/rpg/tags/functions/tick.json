@@ -1,0 +1,12 @@
+{
+    "values": [
+        "rpg:lvl/playerlvl",
+        "rpg:setup/tick/tags",
+        "rpg:rarity/zombierarity",
+        "rpg:craft/benches/place",
+        "rpg:craft/all",
+        "rpg:setup/tick/bossbar/all",
+        "rpg:setup/tick/portals/all",
+        "rpg:setup/tick/portals/portal_timer"
+    ]
+}

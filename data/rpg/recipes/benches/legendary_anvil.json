@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "#N#",
+      " + ",
+      "YYY"
+    ],
+    "key": {
+      "#": {
+        "item": "obsidian"
+      },
+      "N": {
+          "item": "netherite_ingot"
+      },
+      "+": {
+          "item": "nether_star"
+      },
+      "Y": {
+          "item": "crying_obsidian"
+      }
+    },
+    "result": {
+      "item": "knowledge_book",
+      "count": 1
+    }
+  }

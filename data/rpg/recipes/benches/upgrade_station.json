@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "###",
+      "C+W",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "obsidian"
+      },
+      "+": {
+          "item": "smithing_table"
+      },
+      "C": {
+          "item": "crimson_planks"
+      },
+      "W": {
+          "item": "warped_planks"
+      }
+    },
+    "result": {
+      "item": "knowledge_book",
+      "count": 1
+    }
+  }

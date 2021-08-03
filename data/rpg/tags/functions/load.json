@@ -1,0 +1,8 @@
+{
+    "values": [
+        "rpg:setup/load/lvlstep",
+        "rpg:setup/load/tellraw",
+        "rpg:setup/load/portal_timer",
+        "rpg:setup/load/sb/rarity"
+    ]
+}

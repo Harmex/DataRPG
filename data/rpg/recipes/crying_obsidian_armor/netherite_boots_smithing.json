@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "minecraft:lapis_block"
+  },
+  "result": {
+    "item": "minecraft:stick"
+  }
+}
