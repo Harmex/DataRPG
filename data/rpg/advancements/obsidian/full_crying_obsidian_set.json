@@ -18,7 +18,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:netherite_helmet",
+            "items": ["minecraft:netherite_helmet"],
             "nbt": "{CustomModelData:2}"
           }
         ]
@@ -29,7 +29,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:netherite_chestplate",
+            "items": ["minecraft:netherite_chestplate"],
             "nbt": "{CustomModelData:2}"
           }
         ]
@@ -40,7 +40,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:netherite_leggings",
+            "items": ["minecraft:netherite_leggings"],
             "nbt": "{CustomModelData:2}"
           }
         ]
@@ -51,7 +51,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:netherite_boots",
+            "items": ["minecraft:netherite_boots"],
             "nbt": "{CustomModelData:2}"
           }
         ]
@@ -62,7 +62,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:netherite_sword",
+            "items": ["minecraft:netherite_sword"],
             "nbt": "{CustomModelData:2}"
           }
         ]
@@ -73,7 +73,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:netherite_pickaxe",
+            "items": ["minecraft:netherite_pickaxe"],
             "nbt": "{CustomModelData:2}"
           }
         ]
@@ -84,7 +84,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:netherite_axe",
+            "items": ["minecraft:netherite_axe"],
             "nbt": "{CustomModelData:2}"
           }
         ]
@@ -95,7 +95,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:netherite_shovel",
+            "items": ["minecraft:netherite_shovel"],
             "nbt": "{CustomModelData:2}"
           }
         ]
@@ -106,7 +106,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:netherite_hoe",
+            "items": ["minecraft:netherite_hoe"],
             "nbt": "{CustomModelData:2}"
           }
         ]
