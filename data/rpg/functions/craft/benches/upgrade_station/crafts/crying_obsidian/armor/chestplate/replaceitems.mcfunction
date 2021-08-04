@@ -1,3 +1,4 @@
 item replace block ~ ~ ~ container.12 with air
 item replace block ~ ~ ~ container.14 with air
-item replace block ~ ~ ~ container.16 with netherite_chestplate{display: {Name: '{"text":"Crying Obsidian Chestplate","color":"#8308E4","italic":false}'}, CustomModelData: 2, AttributeModifiers: [{AttributeName: "generic.armor", Name: "generic.armor", Amount: 9, Operation: 0, UUID: [I; 36, 36, 36, 36], Slot: "chest"}, {AttributeName: "generic.armor_toughness", Name: "generic.armor_toughness", Amount: 4, Operation: 0, UUID: [I; 37, 37, 37, 37], Slot: "chest"}, {AttributeName: "generic.knockback_resistance", Name: "generic.knockback_resistance", Amount: 0.15d, Operation: 0, UUID: [I; 38, 38, 38, 38], Slot: "chest"}]}
+item replace block ~ ~ ~ container.16 with netherite_chestplate{display: {Name: '{"text":"Crying Obsidian Chestplate","color":"#8308E4","italic":false}'}, CustomModelData: 2}
+item modify block ~ ~ ~ container.16 rpg:crying_obsidian/chestplate

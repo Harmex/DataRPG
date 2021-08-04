@@ -1,3 +1,4 @@
 item replace block ~ ~ ~ container.12 with air
 item replace block ~ ~ ~ container.14 with air
-item replace block ~ ~ ~ container.16 with netherite_boots{display: {Name: '{"text":"Crying Obsidian Boots","color":"#8308E4","italic":false}'}, CustomModelData: 2, AttributeModifiers: [{AttributeName: "generic.armor", Name: "generic.armor", Amount: 7, Operation: 0, UUID: [I; 33, 33, 33, 33], Slot: "feet"}, {AttributeName: "generic.armor_toughness", Name: "generic.armor_toughness", Amount: 4, Operation: 0, UUID: [I; 34, 34, 34, 34], Slot: "feet"}, {AttributeName: "generic.knockback_resistance", Name: "generic.knockback_resistance", Amount: 0.15d, Operation: 0, UUID: [I; 35, 35, 35, 35], Slot: "feet"}]}
+item replace block ~ ~ ~ container.16 with netherite_boots{display: {Name: '{"text":"Crying Obsidian Boots","color":"#8308E4","italic":false}'}, CustomModelData: 2}
+item modify block ~ ~ ~ container.16 rpg:crying_obsidian/boots

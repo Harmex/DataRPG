@@ -1,0 +1,28 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.armor",
+                "name": "armor",
+                "amount": 7,
+                "operation": "addition",
+                "slot": "feet"
+            },
+            {
+                "attribute": "minecraft:generic.armor_toughness",
+                "name": "armor_toughness",
+                "amount": 4,
+                "operation": "addition",
+                "slot": "feet"
+            },
+            {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "name": "knockback_resistance",
+                "amount": 0.15,
+                "operation": "addition",
+                "slot": "feet"
+            }
+        ]
+    }
+]
