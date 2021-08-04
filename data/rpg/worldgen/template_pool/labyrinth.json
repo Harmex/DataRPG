@@ -1,0 +1,33 @@
+{
+    "name": "rpg:labyrinth",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {	
+        "weight": 100,
+        "element": {
+          "location": "rpg:labyrinth/overworld/overworld_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 100,
+        "element": {
+          "location": "rpg:labyrinth/nether/nether_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 100,
+        "element": {
+          "location": "rpg:labyrinth/end/end_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

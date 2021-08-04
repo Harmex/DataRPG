@@ -1,0 +1,15 @@
+{
+    "name": "rpg:undead_castle/doors",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 100,
+        "element": {
+          "location": "rpg:undead_castle/rooms/door_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
