@@ -8,6 +8,7 @@
     }
   },
   "rewards": {
-    "function": "rpg:craft/obsidian_tools/obsidian_hoe"
+    "function": "rpg:craft/obsidian_tools/obsidian_hoe",
+    "loot": ["rpg:crafts/obsidian/hoe"]
   }
 }

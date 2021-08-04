@@ -8,6 +8,7 @@
     }
   },
   "rewards": {
-    "function": "rpg:craft/obsidian_tools/obsidian_axe"
+    "function": "rpg:craft/obsidian_tools/obsidian_axe",
+    "loot": ["rpg:crafts/obsidian/axe"]
   }
 }

@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.attack_speed",
+                                    "name": "attack_speed",
+                                    "amount": 1.6,
+                                    "operation": "addition",
+                                    "slot": [
+                                        "mainhand"
+                                    ]
+                                },
+                                {
+                                    "attribute": "minecraft:generic.attack_damage",
+                                    "name": "attack_damage",
+                                    "amount": 10,
+                                    "operation": "addition",
+                                    "slot": [
+                                        "mainhand"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display: {Name: '{\"text\":\"Obsidian Sword\",\"italic\":false, \"color\": \"#8C5EC9\"}'}, CustomModelData: 1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

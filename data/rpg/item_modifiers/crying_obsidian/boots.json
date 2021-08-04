@@ -5,7 +5,7 @@
             {
                 "attribute": "minecraft:generic.armor",
                 "name": "armor",
-                "amount": 7,
+                "amount": 4,
                 "operation": "addition",
                 "slot": "feet"
             },
@@ -24,5 +24,9 @@
                 "slot": "feet"
             }
         ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{display: {Name: '{\"text\":\"Crying Obsidian Boots\",\"color\":\"#8308E4\",\"italic\":false}'}, CustomModelData: 2}"
     }
 ]

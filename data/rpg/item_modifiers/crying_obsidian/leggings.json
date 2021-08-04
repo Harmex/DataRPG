@@ -5,7 +5,7 @@
             {
                 "attribute": "minecraft:generic.armor",
                 "name": "armor",
-                "amount": 4,
+                "amount": 7,
                 "operation": "addition",
                 "slot": "legs"
             },
@@ -24,5 +24,9 @@
                 "slot": "legs"
             }
         ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{display: {Name: '{\"text\":\"Crying Obsidian Leggings\",\"color\":\"#8308E4\",\"italic\":false}'}, CustomModelData: 2}"
     }
 ]

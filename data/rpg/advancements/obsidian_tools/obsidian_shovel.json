@@ -8,6 +8,7 @@
     }
   },
   "rewards": {
-    "function": "rpg:craft/obsidian_tools/obsidian_shovel"
+    "function": "rpg:craft/obsidian_tools/obsidian_shovel",
+    "loot": ["rpg:crafts/obsidian/shovel"]
   }
 }

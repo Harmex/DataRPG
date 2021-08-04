@@ -24,5 +24,9 @@
                 "slot": "chest"
             }
         ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{display: {Name: '{\"text\":\"Crying Obsidian Chestplate\",\"color\":\"#8308E4\",\"italic\":false}'}, CustomModelData: 2}"
     }
 ]
