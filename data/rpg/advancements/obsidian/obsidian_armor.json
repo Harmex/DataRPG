@@ -13,45 +13,12 @@
     "hidden": false
   },
   "criteria": {
-    "obsidian_helmet": {
+    "obsidian_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:netherite_helmet"],
-            "nbt": "{CustomModelData:1}"
-          }
-        ]
-      }
-    },
-    "obsidian_chestplate": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["minecraft:netherite_chestplate"],
-            "nbt": "{CustomModelData:1}"
-          }
-        ]
-      }
-    },
-    "obsidian_leggings": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["minecraft:netherite_leggings"],
-            "nbt": "{CustomModelData:1}"
-          }
-        ]
-      }
-    },
-    "obsidian_boots": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["minecraft:netherite_boots"],
+            "items": ["minecraft:netherite_helmet", "minecraft:netherite_chestplate", "minecraft:netherite_leggings", "minecraft:netherite_boots"],
             "nbt": "{CustomModelData:1}"
           }
         ]
@@ -60,10 +27,7 @@
   },
   "requirements": [
     [
-      "obsidian_helmet",
-      "obsidian_chestplate",
-      "obsidian_leggings",
-      "obsidian_boots"
+      "obsidian_armor"
     ]
   ]
 }

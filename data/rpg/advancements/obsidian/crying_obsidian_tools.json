@@ -13,56 +13,12 @@
       "hidden": false
     },
     "criteria": {
-      "crying_obsidian_pickaxe": {
+      "crying_obsidian_tools": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
-              "items": ["minecraft:netherite_pickaxe"],
-              "nbt": "{CustomModelData:2}"
-            }
-          ]
-        }
-      },
-      "crying_obsidian_sword": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:netherite_sword"],
-              "nbt": "{CustomModelData:2}"
-            }
-          ]
-        }
-      },
-      "crying_obsidian_axe": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:netherite_axe"],
-              "nbt": "{CustomModelData:2}"
-            }
-          ]
-        }
-      },
-      "crying_obsidian_shovel": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:netherite_shovel"],
-              "nbt": "{CustomModelData:2}"
-            }
-          ]
-        }
-      },
-      "crying_obsidian_hoe": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:netherite_hoe"],
+              "items": ["minecraft:netherite_pickaxe", "minecraft:netherite_axe", "minecraft:netherite_shovel", "minecraft:netherite_hoe", "minecraft:netherite_sword"],
               "nbt": "{CustomModelData:2}"
             }
           ]
@@ -71,11 +27,7 @@
     },
     "requirements": [
       [
-        "crying_obsidian_pickaxe",
-        "crying_obsidian_sword",
-        "crying_obsidian_axe",
-        "crying_obsidian_shovel",
-        "crying_obsidian_hoe"
+        "crying_obsidian_tools"
       ]
     ]
   }

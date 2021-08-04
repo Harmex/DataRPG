@@ -13,45 +13,12 @@
       "hidden": false
     },
     "criteria": {
-      "crying_obsidian_helmet": {
+      "crying_obsidian_armor": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
-              "items": ["minecraft:netherite_helmet"],
-              "nbt": "{CustomModelData:2}"
-            }
-          ]
-        }
-      },
-      "crying_obsidian_chestplate": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:netherite_chestplate"],
-              "nbt": "{CustomModelData:2}"
-            }
-          ]
-        }
-      },
-      "crying_obsidian_leggings": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:netherite_leggings"],
-              "nbt": "{CustomModelData:2}"
-            }
-          ]
-        }
-      },
-      "crying_obsidian_boots": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": ["minecraft:netherite_boots"],
+              "items": ["minecraft:netherite_helmet", "minecraft:netherite_chestplate", "minecraft:netherite_leggings", "minecraft:netherite_boots"],
               "nbt": "{CustomModelData:2}"
             }
           ]
@@ -60,10 +27,7 @@
     },
     "requirements": [
       [
-        "crying_obsidian_helmet",
-        "crying_obsidian_chestplate",
-        "crying_obsidian_leggings",
-        "crying_obsidian_boots"
+        "crying_obsidian_armor"
       ]
     ]
   }
