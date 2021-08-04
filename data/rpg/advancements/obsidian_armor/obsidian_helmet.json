@@ -8,6 +8,7 @@
     }
   },
   "rewards": {
-    "function": "rpg:craft/obsidian_armor/obsidian_helmet"
+    "function": "rpg:craft/obsidian_armor/obsidian_helmet",
+    "loot": ["rpg:crafts/obsidian/helmet"]
   }
 }

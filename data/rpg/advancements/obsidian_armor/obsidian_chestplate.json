@@ -8,6 +8,7 @@
     }
   },
   "rewards": {
-    "function": "rpg:craft/obsidian_armor/obsidian_chestplate"
+    "function": "rpg:craft/obsidian_armor/obsidian_chestplate",
+    "loot": ["rpg:crafts/obsidian/chestplate"]
   }
 }

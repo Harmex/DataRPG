@@ -1,0 +1,51 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.armor",
+                                    "name": "armor",
+                                    "amount": 9,
+                                    "operation": "addition",
+                                    "slot": [
+                                        "chest"
+                                    ]
+                                },
+                                {
+                                    "attribute": "minecraft:generic.armor_toughness",
+                                    "name": "armor_toughness",
+                                    "amount": 4,
+                                    "operation": "addition",
+                                    "slot": [
+                                        "chest"
+                                    ]
+                                },
+                                {
+                                    "attribute": "minecraft:generic.knockback_resistance",
+                                    "name": "knockback_resistance",
+                                    "amount": 0.15,
+                                    "operation": "addition",
+                                    "slot": [
+                                        "chest"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display: {Name: '{\"text\":\"Obsidian Helmet\",\"italic\":false, \"color\": \"#8C5EC9\"}'}, CustomModelData: 1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

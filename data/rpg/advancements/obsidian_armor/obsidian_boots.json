@@ -8,6 +8,7 @@
     }
   },
   "rewards": {
-    "function": "rpg:craft/obsidian_armor/obsidian_boots"
+    "function": "rpg:craft/obsidian_armor/obsidian_boots",
+    "loot": ["rpg:crafts/obsidian/boots"]
   }
 }

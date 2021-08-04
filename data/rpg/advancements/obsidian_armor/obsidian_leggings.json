@@ -8,6 +8,7 @@
     }
   },
   "rewards": {
-    "function": "rpg:craft/obsidian_armor/obsidian_leggings"
+    "function": "rpg:craft/obsidian_armor/obsidian_leggings",
+    "loot": ["rpg:crafts/obsidian/leggings"]
   }
 }
