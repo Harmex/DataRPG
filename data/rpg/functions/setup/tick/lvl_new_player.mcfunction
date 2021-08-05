@@ -1,0 +1,1 @@
+execute as @a[tag=!leveling] if entity @s run function rpg:lvl/new_player

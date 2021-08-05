@@ -1,7 +1,8 @@
 {
     "values": [
-        "rpg:lvl/playerlvl",
         "rpg:setup/tick/tags",
+        "rpg:setup/tick/lvl_new_player",
+        "rpg:setup/tick/lvl",
         "rpg:rarity/zombierarity",
         "rpg:craft/benches/place",
         "rpg:craft/all",

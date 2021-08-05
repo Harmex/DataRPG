@@ -1,0 +1,1 @@
+execute as @a[tag=leveling] run function rpg:lvl/lvl_up
