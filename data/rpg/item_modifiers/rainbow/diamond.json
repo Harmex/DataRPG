@@ -1,0 +1,6 @@
+[
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{display: {Name: '[{\"text\":\"Rai\", \"color\": \"#D0014A\", \"italic\":false}, {\"text\":\"nbo\", \"color\": \"#B91AFF\", \"italic\":false}, {\"text\":\"w D\", \"color\": \"#348FFF\", \"italic\":false}, {\"text\":\"iam\", \"color\": \"#4AFF38\", \"italic\":false}, {\"text\":\"ond\",\"color\":\"#ECF801\", \"italic\":false}]'}, CustomModelData: 1}"
+    }
+]

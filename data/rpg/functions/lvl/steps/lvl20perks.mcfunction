@@ -10,3 +10,6 @@ attribute @s generic.armor_toughness base set 0.4
 attribute @s generic.attack_knockback base set 0.4
 attribute @s generic.knockback_resistance base set 0.04
 attribute @s generic.luck base set 0.4
+
+tag @s remove lvl15
+tag @s add lvl20

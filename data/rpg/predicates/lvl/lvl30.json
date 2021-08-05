@@ -3,8 +3,7 @@
     "entity": "this",
     "scores": {
         "level": {
-            "min": 30,
-            "max": 34
+            "min": 30
         }
     }
 }
