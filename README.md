@@ -1,8 +1,8 @@
-# DataRPG (nom temporaire)
+# DataRPG
 Un datapack pour le fameux jeux vidéo gaming Minecraft
 
 # Infos pour le code
-CustomModelData :
+### CustomModelData :
 
 1 : Obsidian, upgrade station, + (upgrade station )
 
@@ -23,55 +23,53 @@ CustomModelData :
 Dernier UUID : 35
 
 # Fini
-Crying obsidian :
-
-Outils, 
-
-Obsidian :
-
+### Crying obsidian :
 Outils, Armure
 
-smithing table appliquer un crying obsi sur de l’obsi pour l'améliorer
+### Obsidian :
+Outils, Armure
 
-Raretés des mobs :
+### Stations de crafts
+Crafting station, Upgrade Station
 
+### Raretés des mobs :
 Zombie, Husk, Zombie Villager, Skeleton
 
-Advancements :
-
+### Advancements :
 Armure et outils en obsi
 
-Trucs de craft:
-
-Crafting Station, Upgrade Station
-
-Structures :
-
+### Structures :
 Donjon du nether avec son boss (qui lui n'est pas fini)
+
+### Levels :
+Stats du joueur qui augmente tout les 5 niveaux (jusquau niveau 50)
 
 # en cours / pas fait entièrement
 Loots des mobs par raretés
 
 Système de levels
+
+Advancements des levels
 # bugué
 
 # to do
-Crying obsidian :
+### Crying obsidian :
 
 Armure
 (effet sur l'armure ou/et les outils(optionnel)). Pas plus fort que l’obsi mais permet de loot des matériaux rares
 
-Armure en orichalque :
+### Armure en orichalque :
 
  créer une armure en or et appliquer un BLOC de lapis dans l'upgrade station
 
-Outils légendaires :
+### Outils légendaires :
 
  Epée du boss roi du nether (épée en netherite)
  
-Armures légendaires :
+### Armures légendaires :
  ? 
 
+### Autre
 Lance (variante du trident du coup)
 
 Bâton de mage (variante de l’arc)
@@ -80,25 +78,19 @@ Sorts (variante des flèches)
 
 bouclier rond (variante du bouclier)
 
-
-
-Mobs :
-
-Différentes raretés de zombies :
-
+### Mobs :
+#### Différentes raretés de zombies :
 Golden (nom temporaire) (super rare avec peu de vie mais du bon loot) 
 
-Et ses variantes :
+### Et ses variantes :
 Drowned
 
 
-Structure :
-
+### Structure :
 Salle du nether dans les fortress (avec boss)
 
 
-Nether :
-
+### Nether :
 Salle du nether en plus dans les forteresses avec un boss wither skeleton
 quand tu bute le boss tu reçois dans un coffre une épée du nether (avec un nom stylé ta vu)
 genre ernavatlir l’épée du roi nether.
