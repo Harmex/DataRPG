@@ -31,7 +31,8 @@
         }
     },
     "rewards": {
-        "function": "rpg:rewards/lvl0"
+        "function": "rpg:rewards/lvl0",
+        "loot": ["rpg:rewards/lvl0"]
     },
     "requirements": [
         [

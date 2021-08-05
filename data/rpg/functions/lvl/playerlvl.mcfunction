@@ -19,14 +19,14 @@ execute as @p[predicate=rpg:lvl/lvl25] if entity @s run function rpg:lvl/steps/l
 #LVL 30
 execute as @p[predicate=rpg:lvl/lvl30] if entity @s run function rpg:lvl/steps/lvl30perks
 
-#LVL 30
+#LVL 35
 execute as @p[predicate=rpg:lvl/lvl35] if entity @s run function rpg:lvl/steps/lvl35perks
 
-#LVL 30
+#LVL 40
 execute as @p[predicate=rpg:lvl/lvl40] if entity @s run function rpg:lvl/steps/lvl40perks
 
-#LVL 30
+#LVL 45
 execute as @p[predicate=rpg:lvl/lvl45] if entity @s run function rpg:lvl/steps/lvl45perks
 
-#LVL 30
+#LVL 50
 execute as @p[predicate=rpg:lvl/lvl50] if entity @s run function rpg:lvl/steps/lvl50perks

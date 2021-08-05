@@ -10,5 +10,3 @@ attribute @s generic.armor_toughness base set 0.0
 attribute @s generic.attack_knockback base set 0.0
 attribute @s generic.knockback_resistance base set 0.0
 attribute @s generic.luck base set 0.0
-
-title @s title ["",{"translate":"display.playerlvl.lvl0"},{"text":"5","bold":true,"color":"dark_green"}]

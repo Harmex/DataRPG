@@ -8,5 +8,5 @@ attribute @s generic.movement_speed base set 0.12
 attribute @s generic.armor base set 0.8
 attribute @s generic.armor_toughness base set 0.8
 attribute @s generic.attack_knockback base set 0.8
-attribute @s generic.knockback_resistance base set 0.8
+attribute @s generic.knockback_resistance base set 0.08
 attribute @s generic.luck base set 0.8

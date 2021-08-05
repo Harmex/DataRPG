@@ -1,0 +1,4 @@
+title @s title [{"text": "Congrats !"}]
+title @s subtitle [{"text": "You are level "}, {"text": "15", "color": "green", "bold": true}, {"text": " ! Only "}, {"text": "15", "color": "green", "bold": true}, {"text": " more levels to fully enchant !"}]
+
+tellraw @a [{"selector":"@s", "color": "green"}, {"text": " reached level ", "color": "white"}, {"text": "15", "color": "green", "bold": true}, {"text": ". Half of ", "color": "white"}, {"text": "30", "color": "green", "bold": true}, {"text": ", but not half of the level ", "color": "white"}, {"text": "30", "color": "green", "bold": true}, {"text": ".", "color": "white"}]
