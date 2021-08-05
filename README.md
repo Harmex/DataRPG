@@ -1,4 +1,4 @@
-# DataRPG (nom temporaire)
+# DataRPG
 Un datapack pour le fameux jeux vidéo gaming Minecraft
 
 # Infos pour le code
