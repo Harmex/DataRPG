@@ -41,6 +41,9 @@ Armure et outils en obsi
 ### Structures :
 Donjon du nether avec son boss (qui lui n'est pas fini)
 
+### Levels :
+Stats du joueur qui augmente tout les 5 niveaux (jusquau niveau 50)
+
 # en cours / pas fait entièrement
 Loots des mobs par raretés
 
