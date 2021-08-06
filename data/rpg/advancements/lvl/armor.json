@@ -1,0 +1,439 @@
+{
+    "parent": "rpg:lvl/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_chestplate",
+        "nbt": "{Damage:0}"
+      },
+      "title": "Armor",
+      "description": "hint: you need to take damage while having the resistance effect.\nhint 2: make a potion of the turtle master.",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "lvl1": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 100
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl2": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 200
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl3": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 400
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl4": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 800
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl5": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 1600
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl6": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 3200
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl7": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 6400
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl8": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 12800
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl9": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 25600
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl10": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 501200
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl11": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 102400
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl12": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 204800
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl13": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 409600
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl14": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 819200
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl15": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 1638400
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl16": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 3276800
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl17": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 6553600
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl18": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 13107200
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl19": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 26214400
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl20": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_resisted",
+                  "value": {
+                    "min": 52428800
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "lvl1"
+      ],
+      [
+        "lvl2"
+      ],
+      [
+        "lvl3"
+      ],
+      [
+        "lvl4"
+      ],
+      [
+        "lvl5"
+      ],
+      [
+        "lvl6"
+      ],
+      [
+        "lvl7"
+      ],
+      [
+        "lvl8"
+      ],
+      [
+        "lvl9"
+      ],
+      [
+        "lvl10"
+      ],
+      [
+        "lvl11"
+      ],
+      [
+        "lvl12"
+      ],
+      [
+        "lvl13"
+      ],
+      [
+        "lvl14"
+      ],
+      [
+        "lvl15"
+      ],
+      [
+        "lvl16"
+      ],
+      [
+        "lvl17"
+      ],
+      [
+        "lvl18"
+      ],
+      [
+        "lvl19"
+      ],
+      [
+        "lvl20"
+      ]
+    ]
+  }

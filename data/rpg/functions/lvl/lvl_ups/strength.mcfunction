@@ -40,4 +40,7 @@ execute if score @s lvl_strength matches 4.. run attribute @s generic.attack_dam
 execute if score @s lvl_strength matches 3.. run attribute @s generic.attack_damage modifier add 21c6b827-b6a4-401d-a97a-3ded9e771f02 "lvl_str3" 0.5 add
 execute if score @s lvl_strength matches 2.. run attribute @s generic.attack_damage modifier add 21c6b827-b6a4-401d-a97a-3ded9e771f01 "lvl_str2" 0.5 add
 execute if score @s lvl_strength matches 1.. run attribute @s generic.attack_damage modifier add 21c6b827-b6a4-401d-a97a-3ded9e771f00 "lvl_str1" 0.5 add
-execute if score @s lvl_strength matches 1.. run title @s title [{"text": "You gained in "}, {"text": "Strength", "color": "purple"}, {"text": " !", "color": "white"}]
+execute unless score @s time_since_death matches ..100 if score @s lvl_strength matches 1.. run title @s title [{"text": "You gained in "}, {"text": "Strength", "color": "yellow"}, {"text": " !", "color": "white"}]
+execute unless score @s time_since_death matches ..100 if score @s lvl_strength matches 1.. run title @s subtitle [{"text": "+ 0.5 damage", "color": "yellow"}]
+
+scoreboard players operation @s lvl_temp_str = @s lvl_temp1

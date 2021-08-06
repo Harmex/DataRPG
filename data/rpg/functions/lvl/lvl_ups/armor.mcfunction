@@ -40,4 +40,7 @@ execute if score @s lvl_armor matches 4.. run attribute @s generic.armor modifie
 execute if score @s lvl_armor matches 3.. run attribute @s generic.armor modifier add 97e4ab23-262b-4349-821b-fe3c2444d102 "lvl_arm3" 1.0 add
 execute if score @s lvl_armor matches 2.. run attribute @s generic.armor modifier add 97e4ab23-262b-4349-821b-fe3c2444d101 "lvl_arm2" 1.0 add
 execute if score @s lvl_armor matches 1.. run attribute @s generic.armor modifier add 97e4ab23-262b-4349-821b-fe3c2444d100 "lvl_arm1" 1.0 add
-execute if score @s lvl_armor matches 1.. run title @s title [{"text": "You gained in "}, {"text": "Health", "color": "red"}, {"text": " !", "color": "white"}]
+execute unless score @s time_since_death matches ..100 if score @s lvl_armor matches 1.. run title @s title [{"text": "You gained in "}, {"text": "Armor", "color": "green"}, {"text": " !", "color": "white"}]
+execute unless score @s time_since_death matches ..100 if score @s lvl_armor matches 1.. run title @s subtitle [{"text": "+ 1/2 defense", "color": "green"}]
+
+scoreboard players operation @s lvl_temp_arm = @s lvl_temp1

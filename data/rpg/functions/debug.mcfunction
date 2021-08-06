@@ -70,3 +70,24 @@ attribute @s generic.armor modifier remove 97e4ab23-262b-4349-821b-fe3c2444d103
 attribute @s generic.armor modifier remove 97e4ab23-262b-4349-821b-fe3c2444d102
 attribute @s generic.armor modifier remove 97e4ab23-262b-4349-821b-fe3c2444d101
 attribute @s generic.armor modifier remove 97e4ab23-262b-4349-821b-fe3c2444d100
+
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da19
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da18
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da17
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da16
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da15
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da14
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da13
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da12
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da11
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da10
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da09
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da08
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da07
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da06
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da05
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da04
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da03
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da02
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da01
+attribute @s generic.movement_speed modifier remove 8fb2a354-83fb-4c46-9476-31626dc8da00

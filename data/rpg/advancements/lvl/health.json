@@ -1,0 +1,439 @@
+{
+    "parent": "rpg:lvl/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:amethyst_cluster",
+        "nbt": "{Damage:0}"
+      },
+      "title": "Health",
+      "description": "It will be a loooonnng way...",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "lvl1": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 500
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl2": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 1000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl3": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 2000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl4": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 4000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl5": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 8000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl6": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 16000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl7": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 32000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl8": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 64000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl9": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 128000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl10": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 256000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl11": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 5012000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl12": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 1024000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl13": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 2048000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl14": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 4096000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl15": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 8192000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl16": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 16384000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl17": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 32768000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl18": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 65536000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl19": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 131072000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lvl20": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "damage_taken",
+                  "value": {
+                    "min": 262144000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "lvl1"
+      ],
+      [
+        "lvl2"
+      ],
+      [
+        "lvl3"
+      ],
+      [
+        "lvl4"
+      ],
+      [
+        "lvl5"
+      ],
+      [
+        "lvl6"
+      ],
+      [
+        "lvl7"
+      ],
+      [
+        "lvl8"
+      ],
+      [
+        "lvl9"
+      ],
+      [
+        "lvl10"
+      ],
+      [
+        "lvl11"
+      ],
+      [
+        "lvl12"
+      ],
+      [
+        "lvl13"
+      ],
+      [
+        "lvl14"
+      ],
+      [
+        "lvl15"
+      ],
+      [
+        "lvl16"
+      ],
+      [
+        "lvl17"
+      ],
+      [
+        "lvl18"
+      ],
+      [
+        "lvl19"
+      ],
+      [
+        "lvl20"
+      ]
+    ]
+  }

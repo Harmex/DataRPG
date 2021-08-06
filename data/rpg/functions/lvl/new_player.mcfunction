@@ -1,7 +1,13 @@
-scoreboard players set @s lvl_temp 0
+scoreboard players set @s lvl_temp1 0
+scoreboard players set @s lvl_temp2 0
+scoreboard players set @s lvl_temp_str 0
+scoreboard players set @s lvl_temp_hlt 0
+scoreboard players set @s lvl_temp_arm 0
+scoreboard players set @s lvl_temp_spd 0
 scoreboard players set @s lvl_strength 0
 scoreboard players set @s lvl_health 0
 scoreboard players set @s lvl_armor 0
+scoreboard players set @s lvl_speed 0
 #scoreboard players set @s lvl_mine 0
 
 scoreboard players set @s dmg_dlt 0
@@ -9,6 +15,8 @@ scoreboard players set @s dmg_dlt 0
 scoreboard players set @s dmg_tkn 0
 
 scoreboard players set @s dmg_rst 0
+
+scoreboard players set @s sprint 0
 
 #scoreboard players set @s emr_stn 0
 #scoreboard players set @s emr_dsl 0

@@ -40,4 +40,7 @@ execute if score @s lvl_health matches 4.. run attribute @s generic.max_health m
 execute if score @s lvl_health matches 3.. run attribute @s generic.max_health modifier add 4af19057-6e6e-43c6-80bb-2147087bc602 "lvl_hlt3" 1.0 add
 execute if score @s lvl_health matches 2.. run attribute @s generic.max_health modifier add 4af19057-6e6e-43c6-80bb-2147087bc601 "lvl_hlt2" 1.0 add
 execute if score @s lvl_health matches 1.. run attribute @s generic.max_health modifier add 4af19057-6e6e-43c6-80bb-2147087bc600 "lvl_hlt1" 1.0 add
-execute if score @s lvl_health matches 1.. run title @s title [{"text": "You gained in "}, {"text": "Health", "color": "red"}, {"text": " !", "color": "white"}]
+execute unless score @s time_since_death matches ..100 if score @s lvl_health matches 1.. run title @s title [{"text": "You gained in "}, {"text": "Health", "color": "red"}, {"text": " !", "color": "white"}]
+execute unless score @s time_since_death matches ..100 if score @s lvl_health matches 1.. run title @s subtitle [{"text": "+ 1/2 Heart", "color": "red"}]
+
+scoreboard players operation @s lvl_temp_hlt = @s lvl_temp1

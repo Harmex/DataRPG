@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:experience_bottle",
+        "nbt": "{Damage:0}"
+      },
+      "title": "The Leveling Begin",
+      "description": "You can lvl up your skills :\n- Health (+ 1.0/lvl)\n- Armor (+ 1.0/lvl)\n- Strength (+ 0.5/lvl)",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "minecraft:textures/gui/advancements/backgrounds/green_glazed_terracotta.png"
+    },
+    "criteria": {
+      "leveling": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags: [\"leveling\"]}"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "leveling"
+      ]
+    ]
+  }
